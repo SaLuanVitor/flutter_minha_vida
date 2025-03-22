@@ -24,7 +24,7 @@ class Resultado extends StatelessWidget {
             style: TextStyle(fontSize: 28),
             textAlign: TextAlign.center,
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 10),
           // Botão para reiniciar o jogo
           ElevatedButton(
             onPressed: reiniciarJogo, // Chama a função de reiniciar o jogo

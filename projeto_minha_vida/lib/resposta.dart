@@ -16,7 +16,7 @@ class Resposta extends StatelessWidget {
           backgroundColor: const Color(0xFFA2C2E6), // Azul pastel
           foregroundColor: Colors.black, // Cor do texto do botão
           elevation: 5,
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(10),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10), // Bordas arredondadas no botão
           ),

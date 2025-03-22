@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_perguntas/questao.dart';
-import 'package:projeto_perguntas/resposta.dart';
+import 'package:projeto_minha_vida/questao.dart';
+import 'package:projeto_minha_vida/resposta.dart';
 
 class Questionario extends StatelessWidget {
   final int perguntaSelecionada;

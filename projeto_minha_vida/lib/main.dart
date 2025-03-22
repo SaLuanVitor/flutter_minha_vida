@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_perguntas/resultado.dart';
-import 'package:projeto_perguntas/questionario.dart';
+import 'package:projeto_minha_vida/resultado.dart';
+import 'package:projeto_minha_vida/questionario.dart';
 
 void main() => runApp(const PerguntaApp());
 
@@ -112,10 +112,10 @@ class PerguntaAppState extends State<PerguntaApp> {
                 if (imagemAtual.isNotEmpty)
                   Image.asset(
                     imagemAtual,
-                    width: 300,
-                    height: 300,
+                    width: 200,
+                    height: 200,
                   ),
-                SizedBox(height: 25), // Espaçamento entre a imagem e a pergunta
+                SizedBox(height: 10), // Espaçamento entre a imagem e a pergunta
                 temPerguntaSelecionada
                     ? Questionario(
                         perguntas: perguntas,
